@@ -1,5 +1,10 @@
 # GitHub RAG Portfolio Assistant
 
+## 🎥 Demo
+
+<video src="static/demo.mp4" controls width="600"></video>
+
+
 An **intelligent portfolio assistant powered by Retrieval-Augmented Generation (RAG)**, designed to help you track and explore your GitHub projects effortlessly.  
 
 ⚠️ **Note:** Some parts of the project are still under active development, including the user interface and agentic features with LangGraph.
