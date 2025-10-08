@@ -1,0 +1,70 @@
+2025-10-08 11:18:44 - INFO - retriever - Initializing Retriever with index: github-index, fusion: True
+2025-10-08 11:18:47 - INFO - retriever - Connected to Pinecone index: github-index
+2025-10-08 11:18:55 - INFO - retriever - Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2025-10-08 11:18:59 - INFO - retriever - Loaded cross-encoder model: cross-encoder/ms-marco-TinyBERT-L-2-v2
+2025-10-08 11:18:59 - INFO - retriever - Initialized QueryGenerator with Groq API key
+2025-10-08 11:18:59 - INFO - retriever - QueryGenerator initialized for RAG Fusion
+2025-10-08 11:20:00 - INFO - retriever - Initializing RAG Fusion Pipeline...
+2025-10-08 11:20:00 - INFO - retriever - Initializing Retriever with index: github-index, fusion: True
+2025-10-08 11:20:37 - INFO - retriever - Connected to Pinecone index: github-index
+2025-10-08 11:20:43 - INFO - retriever - Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2025-10-08 11:20:48 - INFO - retriever - Loaded cross-encoder model: cross-encoder/ms-marco-TinyBERT-L-2-v2
+2025-10-08 11:20:48 - INFO - retriever - Initialized QueryGenerator with Groq API key
+2025-10-08 11:20:48 - INFO - retriever - QueryGenerator initialized for RAG Fusion
+2025-10-08 11:20:48 - INFO - retriever - Retriever initialized in 48.06s
+2025-10-08 11:20:48 - INFO - retriever - ======================================================================
+2025-10-08 11:20:48 - INFO - retriever - Processing user query: 'Do you have any project related to cancer detection?'
+2025-10-08 11:20:48 - INFO - retriever - ======================================================================
+2025-10-08 11:20:48 - INFO - retriever - Starting RAG pipeline for query: 'Do you have any project related to cancer detection?' with top_k=5
+2025-10-08 11:20:48 - INFO - retriever - Processing query: 'Do you have any project related to cancer detection?' with top_k=5, fusion=True
+2025-10-08 11:20:48 - INFO - retriever - Using RAG Fusion with 3 queries
+2025-10-08 11:20:49 - INFO - retriever - Generated 3 fusion queries in 1.22s
+2025-10-08 11:20:49 - INFO - retriever - Retrieving for query 1/3: 'Do you have any project related to cancer detection?'
+2025-10-08 11:20:51 - INFO - retriever - Retrieved 15 matches for query 'Do you have any project related to cancer detection?' in 2.05s
+2025-10-08 11:20:51 - INFO - retriever - Retrieving for query 2/3: 'Projects focused on oncology diagnosis and screening initiatives using advanced technologies'
+2025-10-08 11:20:52 - INFO - retriever - Retrieved 15 matches for query 'Projects focused on oncology diagnosis and screening initiatives using advanced technologies' in 1.30s
+2025-10-08 11:20:52 - INFO - retriever - Retrieving for query 3/3: 'Research initiatives or studies concentrated on the early identification of cancer through innovative detection methods'
+2025-10-08 11:20:53 - INFO - retriever - Retrieved 15 matches for query 'Research initiatives or studies concentrated on the early identification of cancer through innovative detection methods' in 0.61s
+2025-10-08 11:20:53 - INFO - retriever - Fused 3 result sets into 18 unique documents in 0.00s
+2025-10-08 11:20:53 - INFO - retriever - Re-ranked 18 matches to 1 in 0.22s
+2025-10-08 11:20:53 - WARNING - retriever - Skipping match ID ChestXray-Cancer-Detection: No metadata
+2025-10-08 11:20:53 - INFO - retriever - Completed RAG Fusion retrieval in 5.44s, returned 0 matches
+2025-10-08 11:20:53 - WARNING - retriever - No matches found for query
+2025-10-08 11:20:53 - INFO - retriever - ======================================================================
+2025-10-08 11:20:53 - INFO - retriever - ======================================================================
+2025-10-08 11:20:53 - INFO - retriever - Processing user query: 'Tell me about projects that use SQL'
+2025-10-08 11:20:53 - INFO - retriever - ======================================================================
+2025-10-08 11:20:53 - INFO - retriever - Starting RAG pipeline for query: 'Tell me about projects that use SQL' with top_k=5
+2025-10-08 11:20:53 - INFO - retriever - Processing query: 'Tell me about projects that use SQL' with top_k=5, fusion=True
+2025-10-08 11:20:53 - INFO - retriever - Using RAG Fusion with 3 queries
+2025-10-08 11:20:54 - INFO - retriever - Generated 3 fusion queries in 0.98s
+2025-10-08 11:20:54 - INFO - retriever - Retrieving for query 1/3: 'Tell me about projects that use SQL'
+2025-10-08 11:20:55 - INFO - retriever - Retrieved 15 matches for query 'Tell me about projects that use SQL' in 0.90s
+2025-10-08 11:20:55 - INFO - retriever - Retrieving for query 2/3: 'Database management systems and applications that utilize SQL programming'
+2025-10-08 11:20:56 - INFO - retriever - Retrieved 15 matches for query 'Database management systems and applications that utilize SQL programming' in 0.66s
+2025-10-08 11:20:56 - INFO - retriever - Retrieving for query 3/3: 'SQL-based data analysis and storage projects across various industries and domains'
+2025-10-08 11:20:56 - INFO - retriever - Retrieved 15 matches for query 'SQL-based data analysis and storage projects across various industries and domains' in 0.54s
+2025-10-08 11:20:56 - INFO - retriever - Fused 3 result sets into 16 unique documents in 0.00s
+2025-10-08 11:20:57 - INFO - retriever - Re-ranked 16 matches to 0 in 0.20s
+2025-10-08 11:20:57 - INFO - retriever - Completed RAG Fusion retrieval in 3.33s, returned 0 matches
+2025-10-08 11:20:57 - WARNING - retriever - No matches found for query
+2025-10-08 11:20:57 - INFO - retriever - ======================================================================
+2025-10-08 11:20:57 - INFO - retriever - ======================================================================
+2025-10-08 11:20:57 - INFO - retriever - Processing user query: 'machine learning projects with deep learning'
+2025-10-08 11:20:57 - INFO - retriever - ======================================================================
+2025-10-08 11:20:57 - INFO - retriever - Starting RAG pipeline for query: 'machine learning projects with deep learning' with top_k=5
+2025-10-08 11:20:57 - INFO - retriever - Processing query: 'machine learning projects with deep learning' with top_k=5, fusion=True
+2025-10-08 11:20:57 - INFO - retriever - Using RAG Fusion with 3 queries
+2025-10-08 11:20:58 - INFO - retriever - Generated 3 fusion queries in 0.93s
+2025-10-08 11:20:58 - INFO - retriever - Retrieving for query 1/3: 'machine learning projects with deep learning'
+2025-10-08 11:20:58 - INFO - retriever - Retrieved 15 matches for query 'machine learning projects with deep learning' in 0.91s
+2025-10-08 11:20:58 - INFO - retriever - Retrieving for query 2/3: 'Deep learning-based machine learning projects and applications'
+2025-10-08 11:20:59 - INFO - retriever - Retrieved 15 matches for query 'Deep learning-based machine learning projects and applications' in 0.46s
+2025-10-08 11:20:59 - INFO - retriever - Retrieving for query 3/3: 'Projects that utilize deep learning techniques in machine learning frameworks'
+2025-10-08 11:21:00 - INFO - retriever - Retrieved 15 matches for query 'Projects that utilize deep learning techniques in machine learning frameworks' in 0.67s
+2025-10-08 11:21:00 - INFO - retriever - Fused 3 result sets into 17 unique documents in 0.00s
+2025-10-08 11:21:00 - INFO - retriever - Re-ranked 17 matches to 1 in 0.27s
+2025-10-08 11:21:00 - WARNING - retriever - Skipping match ID Mlprojects: No metadata
+2025-10-08 11:21:00 - INFO - retriever - Completed RAG Fusion retrieval in 3.27s, returned 0 matches
+2025-10-08 11:21:00 - WARNING - retriever - No matches found for query
+2025-10-08 11:21:00 - INFO - retriever - ======================================================================

@@ -1,0 +1,6 @@
+.env
+venv
+data
+.embedding_cache
+.results_cache
+notebooks/data

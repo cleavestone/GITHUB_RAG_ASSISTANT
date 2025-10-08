@@ -1,0 +1,18 @@
+2025-10-07 13:02:17 - INFO - build_index - Initializing PineconeIndexer for index 'github-index' in region 'us-east-1'
+2025-10-07 13:02:17 - INFO - build_index - Checking if index 'github-index' exists...
+2025-10-07 13:02:17 - WARNING - build_index - Index 'github-index' not found. Creating new index...
+2025-10-07 13:06:34 - INFO - build_index - Initializing PineconeIndexer for index 'github-index' in region 'us-east-1'
+2025-10-07 13:06:34 - INFO - build_index - Checking if index 'github-index' exists...
+2025-10-07 13:06:34 - WARNING - build_index - Index 'github-index' not found. Creating new index...
+2025-10-07 13:06:50 - INFO - build_index - Index 'github-index' created successfully
+2025-10-07 13:06:56 - INFO - build_index - Model 'all-MiniLM-L6-v2' loaded successfully
+2025-10-07 13:06:56 - INFO - build_index - Loading documents from data/github/projects.jsonl
+2025-10-07 13:06:56 - INFO - build_index - Loaded 19 documents
+2025-10-07 13:06:56 - INFO - build_index - Creating embeddings for 19 documents using model 'all-MiniLM-L6-v2'
+2025-10-07 13:06:59 - INFO - build_index - Successfully created 19 embeddings
+2025-10-07 13:06:59 - INFO - build_index - Upserting 19 vectors into index 'github-index' (batch size=100)
+2025-10-07 13:07:07 - INFO - build_index - ✅ Uploaded all 19 vectors to Pinecone index 'github-index'
+2025-10-07 13:33:44 - INFO - build_index - Initializing PineconeIndexer for index 'github-index' in region 'us-east-1'
+2025-10-07 13:33:44 - INFO - build_index - Checking if index 'github-index' exists...
+2025-10-07 13:33:47 - INFO - build_index - Index 'github-index' already exists
+2025-10-07 13:33:54 - INFO - build_index - Model 'all-MiniLM-L6-v2' loaded successfully

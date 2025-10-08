@@ -1,0 +1,43 @@
+2025-10-07 12:29:29 - INFO - rag - GitHubPipeline initialized
+2025-10-07 12:29:29 - INFO - rag - Starting README ingestion...
+2025-10-07 12:29:31 - INFO - rag - ✅ Ingested README: Air_quality_Forecasting
+2025-10-07 12:29:32 - INFO - rag - ✅ Ingested README: CARLIFORNIA-HOUSE-PREDICTION
+2025-10-07 12:29:34 - INFO - rag - ✅ Ingested README: ChestXray-Cancer-Detection
+2025-10-07 12:29:36 - INFO - rag - ✅ Ingested README: Customer-Segmentation
+2025-10-07 12:29:37 - INFO - rag - ✅ Ingested README: Customer_Churn_MLOPS
+2025-10-07 12:29:38 - INFO - rag - ✅ Ingested README: DATA-ANALYSIS-SQL
+2025-10-07 12:29:39 - INFO - rag - ✅ Ingested README: Data-Analytics
+2025-10-07 12:29:40 - INFO - rag - ✅ Ingested README: Data-Insights-Hub
+2025-10-07 12:29:41 - INFO - rag - ✅ Ingested README: ETL
+2025-10-07 12:29:42 - INFO - rag - ✅ Ingested README: fine_tuning_bert_model
+2025-10-07 12:29:43 - INFO - rag - ✅ Ingested README: MCQ_GEN
+2025-10-07 12:29:44 - INFO - rag - ✅ Ingested README: Medical-chatbot
+2025-10-07 12:29:45 - INFO - rag - ✅ Ingested README: mlflow-production-setup
+2025-10-07 12:29:47 - INFO - rag - ✅ Ingested README: Mlprojects
+2025-10-07 12:29:48 - INFO - rag - ✅ Ingested README: Movie_recommender
+2025-10-07 12:29:49 - INFO - rag - ✅ Ingested README: Movie_Recommender_App
+2025-10-07 12:29:50 - INFO - rag - ✅ Ingested README: Northwind-Sales-Analysis
+2025-10-07 12:29:51 - INFO - rag - ✅ Ingested README: portfolio
+2025-10-07 12:29:51 - INFO - rag - ✅ Ingested README: RAG_from_scratch
+2025-10-07 12:29:51 - INFO - rag - Starting embedding summaries generation...
+2025-10-07 12:29:53 - INFO - rag - ✅ Summarized: Air_quality_Forecasting
+2025-10-07 12:30:01 - INFO - rag - ✅ Summarized: CARLIFORNIA-HOUSE-PREDICTION
+2025-10-07 12:30:08 - INFO - rag - ✅ Summarized: ChestXray-Cancer-Detection
+2025-10-07 12:30:18 - INFO - rag - ✅ Summarized: Customer-Segmentation
+2025-10-07 12:30:28 - INFO - rag - ✅ Summarized: Customer_Churn_MLOPS
+2025-10-07 12:30:36 - INFO - rag - ✅ Summarized: DATA-ANALYSIS-SQL
+2025-10-07 12:30:43 - INFO - rag - ✅ Summarized: Data-Analytics
+2025-10-07 12:30:50 - INFO - rag - ✅ Summarized: Data-Insights-Hub
+2025-10-07 12:30:58 - INFO - rag - ✅ Summarized: ETL
+2025-10-07 12:31:06 - INFO - rag - ✅ Summarized: fine_tuning_bert_model
+2025-10-07 12:31:13 - INFO - rag - ✅ Summarized: MCQ_GEN
+2025-10-07 12:31:20 - INFO - rag - ✅ Summarized: Medical-chatbot
+2025-10-07 12:31:29 - INFO - rag - ✅ Summarized: mlflow-production-setup
+2025-10-07 12:31:36 - INFO - rag - ✅ Summarized: Mlprojects
+2025-10-07 12:31:43 - INFO - rag - ✅ Summarized: Movie_recommender
+2025-10-07 12:31:51 - INFO - rag - ✅ Summarized: Movie_Recommender_App
+2025-10-07 12:31:59 - INFO - rag - ✅ Summarized: Northwind-Sales-Analysis
+2025-10-07 12:32:06 - INFO - rag - ✅ Summarized: portfolio
+2025-10-07 12:32:14 - INFO - rag - ✅ Summarized: RAG_from_scratch
+2025-10-07 12:32:20 - INFO - rag - Combining JSON summaries into JSONL...
+2025-10-07 12:32:21 - INFO - rag - ✅ Combined JSONL written to data/github/projects.jsonl

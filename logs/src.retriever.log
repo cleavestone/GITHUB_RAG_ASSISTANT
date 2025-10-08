@@ -1,0 +1,12 @@
+2025-10-07 14:20:08 - INFO - src.retriever - ✓ Connected to Pinecone index: github-index
+2025-10-07 14:20:13 - INFO - src.retriever - ✓ Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2025-10-07 14:20:16 - INFO - src.retriever - ✓ Loaded rerank model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2025-10-07 14:20:20 - INFO - src.retriever - 🔍 Retrieving top 10 results for query: 'Tell me about projects that use SQL...'
+2025-10-07 14:20:21 - INFO - src.retriever - ✓ Retrieved 10 results from Pinecone
+2025-10-07 14:20:22 - INFO - src.retriever - ✓ Reranked results (top score: -8.8480)
+2025-10-07 14:32:19 - INFO - src.retriever - ✓ Connected to Pinecone index: github-index
+2025-10-07 14:32:24 - INFO - src.retriever - ✓ Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 on cpu
+2025-10-07 14:32:27 - INFO - src.retriever - ✓ Loaded rerank model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2025-10-07 14:32:30 - INFO - src.retriever - 🔍 Retrieving top 10 results for query: 'Tell me about projects that use SQL...'
+2025-10-07 14:32:31 - INFO - src.retriever - ✓ Retrieved 10 results from Pinecone
+2025-10-07 14:32:32 - INFO - src.retriever - ✓ Reranked results (top score: 2.0794)

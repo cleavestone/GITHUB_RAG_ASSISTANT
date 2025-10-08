@@ -1,0 +1,6 @@
+data
+venv
+.env
+config.yaml
+.embedding_cache
+.results_cache

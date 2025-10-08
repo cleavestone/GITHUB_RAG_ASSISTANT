@@ -1,0 +1,13 @@
+# config.yaml
+github:
+  username: "cleavestone"
+  token_env: "GITHUB_TOKEN"
+
+paths:
+  raw_readmes: "data/github/github_readmes"
+  summaries: "data/github/summaries"
+  projects_jsonl: "data/github/projects.jsonl"
+
+groq:
+  api_key_env: "GROQ_API_KEY"
+  model: "openai/gpt-oss-120b"
