@@ -1,0 +1,144 @@
+2025-10-11 10:52:54 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 10:52:57 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 10:52:57 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 10:53:10 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 10:53:10 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 10:53:10 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 10:53:29 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-11 10:53:30 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 10:53:30 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-11 10:53:35 - INFO - chat - [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]
+2025-10-11 10:53:35 - INFO - chat - ✓ Retrieved context length: 3 characters
+2025-10-11 10:53:35 - INFO - chat - Context preview: [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]...
+2025-10-11 10:58:49 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-11 10:58:50 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:02:44 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 11:02:47 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:02:47 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 11:02:54 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 11:02:54 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:02:54 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 11:03:18 - INFO - chat - 📍 Routing query: 'data analysis projects'
+2025-10-11 11:03:18 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:03:18 - INFO - chat - 🔍 Retrieving projects for query: 'data analysis projects'
+2025-10-11 11:03:21 - INFO - chat - []
+2025-10-11 11:03:21 - INFO - chat - ✓ Retrieved context length: 0 characters
+2025-10-11 11:03:21 - INFO - chat - Context preview: []...
+2025-10-11 11:03:55 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-11 11:03:56 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:03:56 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-11 11:03:58 - INFO - chat - [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]
+2025-10-11 11:03:58 - INFO - chat - ✓ Retrieved context length: 3 characters
+2025-10-11 11:03:58 - INFO - chat - Context preview: [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]...
+2025-10-11 11:04:27 - INFO - chat - 📍 Routing query: 'time series forecasting projects'
+2025-10-11 11:04:28 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:04:28 - INFO - chat - 🔍 Retrieving projects for query: 'time series forecasting projects'
+2025-10-11 11:04:31 - INFO - chat - [{'name': 'Air_quality_Forecasting', 'url': 'https://github.com/cleavestone/Air_quality_Forecasting', 'technologies': ['Keras framework', 'Python', 'Min-Max scaling', 'One-hot encoding'], 'description': 'This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.'}]
+2025-10-11 11:04:31 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:04:31 - INFO - chat - Context preview: [{'name': 'Air_quality_Forecasting', 'url': 'https://github.com/cleavestone/Air_quality_Forecasting', 'technologies': ['Keras framework', 'Python', 'Min-Max scaling', 'One-hot encoding'], 'description': 'This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.'}]...
+2025-10-11 11:30:26 - INFO - chat - 📍 Routing query: 'SQL Projects'
+2025-10-11 11:30:27 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:30:27 - INFO - chat - 🔍 Retrieving projects for query: 'SQL Projects'
+2025-10-11 11:30:34 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 11:30:34 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:30:34 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 11:32:52 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-11 11:32:57 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:32:57 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-11 11:33:37 - INFO - chat - [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]
+2025-10-11 11:33:37 - INFO - chat - ✓ Retrieved context length: 3 characters
+2025-10-11 11:33:37 - INFO - chat - Context preview: [{'name': 'Mlprojects', 'url': 'https://github.com/cleavestone/Mlprojects', 'technologies': ['Python', 'Scikit-learn', 'TensorFlow', 'Keras'], 'description': "This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios."}, {'name': 'Data-Insights-Hub', 'url': 'https://github.com/cleavestone/Data-Insights-Hub', 'technologies': ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'Seaborn'], 'description': 'This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.'}, {'name': 'Customer_Churn_MLOPS', 'url': 'https://github.com/cleavestone/Customer_Churn_MLOPS', 'technologies': ['Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'CatBoost', 'LightGBM', 'MLflow', 'DVC', 'FastAPI', 'HTML', 'CSS', 'Jinja2', 'Docker', 'GitHub Actions', 'AWS ECR', 'AWS ECS Fargate', 'Grafana'], 'description': 'This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.'}]...
+2025-10-11 11:42:01 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 11:42:01 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:42:01 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 11:42:04 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 11:42:04 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:42:04 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 11:42:18 - INFO - chat - 📍 Routing query: 'deep learning projects'
+2025-10-11 11:42:19 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:42:19 - INFO - chat - 🔍 Retrieving projects for query: 'deep learning projects'
+2025-10-11 11:42:20 - INFO - chat - [{'name': 'ChestXray-Cancer-Detection', 'url': 'https://github.com/cleavestone/ChestXray-Cancer-Detection', 'technologies': ['Python', 'TensorFlow', 'Keras', 'VGG16', 'DVC', 'MLflow', 'Dagshub', 'Flask', 'Docker', 'AWS'], 'description': 'This project is an end-to-end Deep Learning project for classifying chest X-rays into Normal and Adenocarcinoma categories. The project uses a modular, production-ready pipeline with tools like DVC, MLflow, and Dagshub for experiment tracking, reproducibility, and scalability.'}]
+2025-10-11 11:42:20 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:42:20 - INFO - chat - Context preview: [{'name': 'ChestXray-Cancer-Detection', 'url': 'https://github.com/cleavestone/ChestXray-Cancer-Detection', 'technologies': ['Python', 'TensorFlow', 'Keras', 'VGG16', 'DVC', 'MLflow', 'Dagshub', 'Flask', 'Docker', 'AWS'], 'description': 'This project is an end-to-end Deep Learning project for classifying chest X-rays into Normal and Adenocarcinoma categories. The project uses a modular, production-ready pipeline with tools like DVC, MLflow, and Dagshub for experiment tracking, reproducibility, and scalability.'}]...
+2025-10-11 11:49:52 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 11:49:53 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:49:53 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 11:49:55 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 11:49:55 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 11:49:55 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 11:50:06 - INFO - chat - 📍 Routing query: 'hi am cleave'
+2025-10-11 11:50:07 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:50:36 - INFO - chat - 📍 Routing query: 'what was my last query for github projects'
+2025-10-11 11:50:37 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 11:50:37 - INFO - chat - 🔍 Retrieving projects for query: 'what was my last query for github projects'
+2025-10-11 11:50:41 - INFO - chat - []
+2025-10-11 11:50:41 - INFO - chat - ✓ Retrieved context length: 0 characters
+2025-10-11 11:50:41 - INFO - chat - Context preview: []...
+2025-10-11 11:50:57 - INFO - chat - 📍 Routing query: 'okay whats my name'
+2025-10-11 11:50:58 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:54:02 - INFO - chat - 📍 Routing query: 'hello am cleave'
+2025-10-11 11:54:04 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:54:16 - INFO - chat - 📍 Routing query: 'whats my name'
+2025-10-11 11:54:17 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:56:15 - INFO - chat - 📍 Routing query: 'hello my name is cleave'
+2025-10-11 11:56:16 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 11:56:25 - INFO - chat - 📍 Routing query: 'what is my name'
+2025-10-11 11:56:26 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:00:20 - INFO - chat - 📍 Routing query: 'hi am cleave'
+2025-10-11 12:00:21 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:00:33 - INFO - chat - 📍 Routing query: 'what is my name'
+2025-10-11 12:00:34 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:00:45 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 12:00:45 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 12:00:45 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 12:00:47 - INFO - chat - [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]
+2025-10-11 12:00:47 - INFO - chat - ✓ Retrieved context length: 1 characters
+2025-10-11 12:00:47 - INFO - chat - Context preview: [{'name': 'DATA-ANALYSIS-SQL', 'url': 'https://github.com/cleavestone/DATA-ANALYSIS-SQL', 'technologies': ['MySQL', 'PostgreSQL', 'Python', 'Faker'], 'description': 'A hands-on SQL practice project with realistic datasets to master core SQL concepts.'}]...
+2025-10-11 12:01:03 - INFO - chat - 📍 Routing query: 'what was my previous query'
+2025-10-11 12:01:04 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:16:44 - INFO - chat - 📍 Routing query: 'hi am cleave'
+2025-10-11 12:20:12 - INFO - chat - 📍 Routing query: 'hi am Cleave'
+2025-10-11 12:22:04 - INFO - chat - 📍 Routing query: 'Hi, my name is Cleave'
+2025-10-11 12:27:27 - INFO - chat - 📍 Routing query: 'Hi, my name is Cleave'
+2025-10-11 12:27:35 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:27:36 - INFO - chat - 📍 Routing query: 'What is my name?'
+2025-10-11 12:27:38 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:27:39 - INFO - chat - 📍 Routing query: 'Show me Python projects'
+2025-10-11 12:27:40 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 12:27:40 - INFO - chat - 🔍 Retrieving projects for query: 'Show me Python projects'
+2025-10-11 12:28:15 - INFO - chat - ✓ Retrieved context length: 0 chars
+2025-10-11 12:28:15 - INFO - chat - 📍 Routing query: 'What is my name?'
+2025-10-11 12:28:16 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:29:11 - INFO - chat - 📍 Routing query: 'hi am cleave'
+2025-10-11 12:29:13 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:29:32 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 12:29:32 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 12:29:32 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 12:29:59 - INFO - chat - ✓ Retrieved context length: 1 chars
+2025-10-11 12:40:11 - INFO - chat - 📍 Routing query: 'hi am cleave'
+2025-10-11 12:40:13 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:40:40 - INFO - chat - 📍 Routing query: 'sql projecys'
+2025-10-11 12:40:41 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 12:40:41 - INFO - chat - 🔍 Retrieving projects for query: 'sql projecys'
+2025-10-11 12:40:54 - INFO - chat - ✓ Retrieved context length: 0 chars
+2025-10-11 12:57:56 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-11 12:57:58 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 12:58:09 - INFO - chat - 📍 Routing query: 'am cleave'
+2025-10-11 12:58:09 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-11 13:14:05 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 13:37:21 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-11 13:37:22 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-11 13:37:22 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-11 13:37:35 - INFO - chat - ✓ Retrieved context length: 1 chars
+2025-10-11 13:44:21 - INFO - chat - Routing: hi
+2025-10-11 13:44:22 - INFO - chat - Router decision: CHAT
+2025-10-11 13:44:30 - INFO - chat - Routing: am cleave
+2025-10-11 13:44:30 - INFO - chat - Router decision: CHAT
+2025-10-11 13:44:50 - INFO - chat - Routing: My name is cleave
+2025-10-11 13:44:51 - INFO - chat - Router decision: CHAT
+2025-10-11 13:44:59 - INFO - chat - Routing: what is my name
+2025-10-11 13:45:00 - INFO - chat - Router decision: CHAT
+2025-10-11 13:45:14 - INFO - chat - Routing: sql projects , can you find any
+2025-10-11 13:45:16 - INFO - chat - Router decision: RETRIEVE
+2025-10-11 13:45:16 - INFO - chat - Retrieving projects for: sql projects , can you find any
+2025-10-11 13:45:27 - INFO - chat - Retrieved 0 projects

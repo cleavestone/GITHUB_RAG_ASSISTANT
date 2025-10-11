@@ -1,84 +1,163 @@
-# GitHub RAG Portfolio Assistant
-
-## 🎥 Demo
-
-<video src="static/demo.gif" controls width="600"></video>
 
 
-An **intelligent portfolio assistant powered by Retrieval-Augmented Generation (RAG)**, designed to help you track and explore your GitHub projects effortlessly.  
 
-⚠️ **Note:** Some parts of the project are still under active development, including the user interface and agentic features with LangGraph.
+# 🚀 GitHub RAG Portfolio Assistant
+
+An intelligent **Retrieval-Augmented Generation (RAG)** system for managing and exploring your GitHub portfolio.  
+This project combines **vector search, query fusion, reranking, and conversational AI** to make your repositories easily searchable and showcaseable through natural language queries.
+
+---
+![Demo GIF](static/demo.gif)
 
 ---
 
-## 🔹 The Idea
-When you’ve built many projects, it can be surprisingly hard to keep track of them all.  
-This project creates a **smart assistant** that can search, summarize, and retrieve your repositories intelligently.  
+## 📝 Introduction
+
+As your GitHub portfolio grows, it becomes harder to **track, organize, and present** your projects effectively.  
+This assistant provides a smart interface to:
+
+- 📥 **Fetch & summarize** GitHub repositories  
+- 📊 **Embed & index** projects in a vector database  
+- 🔍 **Retrieve projects** via conversational queries  
+- 💬 Support both **normal chat** and **retrieval-augmented workflows**  
+
+Think of it as your **personal AI assistant for your portfolio**.
 
 ---
 
-## 🔹 What I’ve Built So Far
-- Pulled repo **READMEs** using the GitHub API  
-- Cleaned & summarized each project into:
-  - **Name**
-  - **Description**
-  - **Tech Stack**
-  - **Link**  
-- Stored all project data in **structured JSONL format**  
-- Embedded projects into **Pinecone** using open-source embedding models  
-- Used an **open-source LLM** for generation and summaries  
-- Incorporated **LangGraph** to support **agentic capabilities** (in progress)  
+## ✨ Features
+
+- 🔄 **Conversational query preprocessing** → Improves search relevance by rewriting ambiguous queries  
+- 🎯 **RAG Fusion** → Generates multiple query variations for broader retrieval coverage  
+- 📚 **Reciprocal Rank Fusion (RRF)** → Combines results from multiple queries for robust ranking  
+- ⚡ **Cross-Encoder reranking** → High-precision ranking using `cross-encoder/ms-marco-MiniLM-L-2-v2`  
+- 🪶 **Lightweight embeddings** → `all-MiniLM-L6-v2` (384-dim) for a speed/accuracy trade-off  
+- 🔀 **Dual chat modes** → Normal LLM chat & retrieval-augmented chat  
+- 🤖 **Agentic workflows** → Routing between retrieval & normal chat with **LangGraph**  
+- 📦 **JSON-serializable outputs** → Easy integration with other systems  
+- 🛠 **Logging & config management** → Debuggable & reproducible workflows  
+- 📓 **Example notebooks** → Data ingestion & LangGraph experimentation  
 
 ---
 
-## 🔹 Data Ingestion Pipeline
-The **ingestion pipeline is complete** and fully functional. It:
-1. Fetches repos from GitHub  
-2. Cleans & formats the data  
-3. Summarizes metadata  
-4. Embeds projects into a **vector store**  
+## 🏗️ Architecture
 
-This pipeline **can be scheduled to auto-update**, keeping your portfolio fresh.
+### 🔹 Data Ingestion Pipeline
+- Fetches GitHub repos via API  
+- Cleans and summarizes metadata  
+- Embeds & stores in **Pinecone**  
+- Orchestrated & schedulable for auto-updates  
 
----
+### 🔹 Retrieval Pipeline
+- Embedding-based search  
+- Query rewriting + fusion  
+- **Reciprocal Rank Fusion (RRF)**  
+- Cross-encoder reranking for precision  
 
-## 🔹 Retrieval Pipeline
-The **retrieval pipeline is already solid**, supporting natural language queries such as:
-- “Show me my clustering projects”  
-- “Which repos used KMeans?”  
-- “Retrieve my machine learning projects”  
+### 🔹 Chat Layer
+- Normal **LLM conversations**  
+- **Retrieval-augmented responses** when project context is required  
+- Workflow routing via **LangGraph**  
 
-Enhancements implemented so far:
-- **Cross-encoder reranking** for higher accuracy  
-- **Query rewriting** to handle ambiguous or complex queries  
-
-⚡ These improvements have already **brought impressive results**, and further refinements are minor.
-
----
-
-## 🔹 User Interface
-The **UI is still in progress**, with future plans to make interaction with the assistant intuitive and visually appealing.
+### 🔹 Interface Layer
+- **Streamlit UI** 
+- Modular prompts (`prompts.py`) for maintainability  
 
 ---
 
-## 💡 Why This Matters
-As your repo count grows, finding the right project can be overwhelming.  
-This system makes it easy to **search, retrieve, and showcase projects instantly**—almost like having a personal smart assistant for your GitHub portfolio.
+## 🔎 RAG Details
+
+- **Embedding model**: `all-MiniLM-L6-v2` (384 dimensions)  
+  - Optimized for CPU inference  
+  - Balance of speed & semantic accuracy  
+
+- **Reranker**: `cross-encoder/ms-marco-MiniLM-L-2-v2`  
+  - Lightweight reranker for high-precision ranking  
+  - Swappable with larger cross-encoders in GPU environments  
+
+- **Query Fusion**:  
+  - Multiple rewritten queries → retrieved separately  
+  - Combined using **Reciprocal Rank Fusion (RRF)**  
 
 ---
 
-## ⚡ Next Steps
-- Complete the **user interface**  
-- Refine **retrieval quality** further (minor improvements only)  
-- Finalize **agentic behavior** with LangGraph  
-- Deploy with **Docker, CI/CD, and AWS**  
+## ⚙️ Tech Stack
+
+- **Core**: Python, GitHub API  
+- **RAG Framework**: LangGraph, Pinecone, Sentence Transformers  
+- **Models**:  
+  - Embedding → `all-MiniLM-L6-v2`  
+  - Reranker → `cross-encoder/ms-marco-MiniLM-L-2-v2`  
+- **Interface**: Streamlit  
+- **Infrastructure**: Docker, CI/CD, AWS (ECR + ECS Fargate)  
+- **Other**: Groq, Structured Logging, Config Management  
 
 ---
 
-## 🔗 Try It Yourself
-Clone the repo and experiment with the current features:
+## 📌 Roadmap
 
-```bash
-git clone https://github.com/yourusername/github-rag-portfolio.git
+- [x] Data ingestion & summarization  
+- [x] Retrieval pipeline with query fusion + reranking  
+- [x] Dual chat (retrieval & normal)  
+- [x] Streamlit UI integration  
+- [ ] Full Docker + AWS deployment pipeline  
+
+---
+
+### Project stucture
+
+```
+📦 project-root/
+├── app/  
+│   ├── app.py                # Streamlit/FastAPI entry point  
+│   └── __init__.py  
+│
+├── src/  
+│   ├── __init__.py  
+│   ├── build_index.py        # Embedding/index pipeline  
+│   ├── chat.py               # Chat agent logic with memory  
+│   ├── fetch_github.py       # Fetch GitHub data  
+│   ├── prompts.py            # Prompt templates  
+│   └── retriever.py          # Retrieval logic  
+│
+├── utils/  
+│   ├── __init__.py  
+│   ├── config_loader.py  
+│   ├── custom_logger.py  
+│   └── llm_client.py  
+│
+├── Pipelines/  
+│   └── Data_Ingestion.py     # Data ingestion pipeline  
+│
+├── data/  
+│   ├── github/  
+│   │   ├── projects.jsonl  
+│   │   ├── github_readmes/   # Project README markdowns (.md files)  
+│   │   └── summaries/        # JSON summaries of README files  
+│
+├── notebooks/                # Keep for experiments (optional in prod)  
+│   ├── github_ingestion.ipynb  
+│   └── langgraph_chat.ipynb  
+│
+├── static/  
+│   ├── demo.gif  
+│   └── css/  
+│       └── style.css  
+│
+├── logs/                     # Keep logs, but rotate in prod  
+│   ├── main.log  
+│   ├── build_index.log  
+│   ├── chat.log  
+│   ├── rag.log  
+│   └── retriever.log  
+│
+├── .dockerignore  
+├── Dockerfile  
+├── requirements.txt  
+├── config.yaml  
+├── README.md  
+└── .gitignore  
+
+```
 
 

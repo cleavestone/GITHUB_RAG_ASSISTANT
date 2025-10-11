@@ -1,0 +1,650 @@
+2025-10-09 09:28:22 - INFO - chat - 📍 Routing query: 'Show me your SQL projects'
+2025-10-09 09:28:24 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 09:28:24 - INFO - chat - 🔍 Retrieving projects for query: 'Show me your SQL projects'
+2025-10-09 09:28:39 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 09:28:39 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 09:28:45 - INFO - chat - 📍 Routing query: 'What's the weather like today?'
+2025-10-09 09:28:50 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 09:28:54 - INFO - chat - 📍 Routing query: 'Show me RAG projects'
+2025-10-09 09:28:55 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 09:28:55 - INFO - chat - 🔍 Retrieving projects for query: 'Show me RAG projects'
+2025-10-09 09:28:58 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 09:28:58 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 09:36:40 - INFO - chat - 📍 Routing query: 'Show me your SQL projects'
+2025-10-09 09:36:41 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 09:36:41 - INFO - chat - 🔍 Retrieving projects for query: 'Show me your SQL projects'
+2025-10-09 09:36:54 - INFO - chat - No relevant projects found.
+2025-10-09 09:36:54 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 09:36:54 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 09:50:45 - INFO - chat - 📍 Routing query: 'Show me your SQL projects'
+2025-10-09 09:50:47 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 09:50:47 - INFO - chat - 🔍 Retrieving projects for query: 'Show me your SQL projects'
+2025-10-09 09:51:07 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 09:51:07 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 09:51:07 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:07:31 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-09 10:07:32 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:08:01 - INFO - chat - 📍 Routing query: 'hello how are you'
+2025-10-09 10:08:21 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 10:08:23 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:09:09 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:09:09 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 10:09:28 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 10:09:28 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 10:09:28 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:11:12 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-09 10:11:38 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:23:14 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-09 10:23:16 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:23:33 - INFO - chat - 📍 Routing query: 'any sql projects'
+2025-10-09 10:23:45 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:23:45 - INFO - chat - 🔍 Retrieving projects for query: 'any sql projects'
+2025-10-09 10:24:06 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 10:24:06 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 10:24:06 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:24:40 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-09 10:24:55 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:24:55 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-09 10:25:00 - INFO - chat - [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios.
+
+
+[Project 2]
+Name: Data-Insights-Hub
+URL: https://github.com/cleavestone/Data-Insights-Hub
+Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, Seaborn
+Description: This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.
+
+
+[Project 3]
+Name: Customer_Churn_MLOPS
+URL: https://github.com/cleavestone/Customer_Churn_MLOPS
+Technologies: Python, Pandas, Scikit-learn, XGBoost, CatBoost, LightGBM, MLflow, DVC, FastAPI, HTML, CSS, Jinja2, Docker, GitHub Actions, AWS ECR, AWS ECS Fargate, Grafana
+Description: This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.
+
+2025-10-09 10:25:00 - INFO - chat - ✓ Retrieved context length: 1392 characters
+2025-10-09 10:25:00 - INFO - chat - Context preview: [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning p...
+2025-10-09 10:25:45 - INFO - chat - 📍 Routing query: 'looking good, i am cleave'
+2025-10-09 10:25:48 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:26:22 - INFO - chat - 📍 Routing query: 'what was my last query on projects'
+2025-10-09 10:26:25 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:26:25 - INFO - chat - 🔍 Retrieving projects for query: 'what was my last query on projects'
+2025-10-09 10:26:33 - INFO - chat - No relevant projects found.
+2025-10-09 10:26:33 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 10:26:33 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 10:27:19 - INFO - chat - 📍 Routing query: 'SQL projects'
+2025-10-09 10:27:21 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:27:21 - INFO - chat - 🔍 Retrieving projects for query: 'SQL projects'
+2025-10-09 10:27:28 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 10:27:28 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 10:27:28 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:27:55 - INFO - chat - 📍 Routing query: 'power bi projects'
+2025-10-09 10:28:00 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:28:00 - INFO - chat - 🔍 Retrieving projects for query: 'power bi projects'
+2025-10-09 10:28:07 - INFO - chat - [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwind database sales data using Power BI to uncover insights into sales, profit, orders, and delivery performance. The database is hosted locally on SQL Server and consists of multiple relational tables. The project demonstrates skills in data connection, transformation, modeling, and visualization.
+
+2025-10-09 10:28:07 - INFO - chat - ✓ Retrieved context length: 497 characters
+2025-10-09 10:28:07 - INFO - chat - Context preview: [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwin...
+2025-10-09 10:29:10 - INFO - chat - 📍 Routing query: 'RAG projects'
+2025-10-09 10:29:15 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:29:15 - INFO - chat - 🔍 Retrieving projects for query: 'RAG projects'
+2025-10-09 10:29:25 - INFO - chat - [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAISS, Weaviate, ChromaDB
+Description: This repository documents a hands-on learning path in Retrieval-Augmented Generation (RAG), aiming to build a strong foundation and design scalable RAG systems for real-world use cases. The project explores different components of RAG, including mathematical foundations, text chunking strategies, document loaders, embeddings, and vector search. The goal is to learn and implement RAG from scratch, with a focus on practical applications and scalability.
+
+2025-10-09 10:29:25 - INFO - chat - ✓ Retrieved context length: 692 characters
+2025-10-09 10:29:25 - INFO - chat - Context preview: [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAI...
+2025-10-09 10:29:53 - INFO - chat - 📍 Routing query: 'langchain projects'
+2025-10-09 10:29:56 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:29:56 - INFO - chat - 🔍 Retrieving projects for query: 'langchain projects'
+2025-10-09 10:30:02 - INFO - chat - [Project 1]
+Name: Medical-chatbot
+URL: https://github.com/cleavestone/Medical-chatbot
+Technologies: Flask, LangChain, OpenAI, Pinecone, Python, HTML/CSS, JavaScript
+Description: This project is a Flask-based Medical Chatbot that leverages LangChain, OpenAI, and Pinecone to deliver intelligent, context-aware responses from a medical knowledge base.
+
+
+[Project 2]
+Name: MCQ_GEN
+URL: https://github.com/cleavestone/MCQ_GEN
+Technologies: Streamlit, LangChain, Python, Git
+Description: This application generates MCQs from PDF or text files and displays the correct answers in a user-friendly format using Streamlit and LangChain.
+
+2025-10-09 10:30:02 - INFO - chat - ✓ Retrieved context length: 628 characters
+2025-10-09 10:30:02 - INFO - chat - Context preview: [Project 1]
+Name: Medical-chatbot
+URL: https://github.com/cleavestone/Medical-chatbot
+Technologies: Flask, LangChain, OpenAI, Pinecone, Python, HTML/CSS, JavaScript
+Description: This project is a Flas...
+2025-10-09 10:39:30 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 10:39:50 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:39:50 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 10:40:04 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 10:40:04 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 10:40:04 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:40:25 - INFO - chat - 📍 Routing query: 'deep learning projects'
+2025-10-09 10:40:32 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:40:32 - INFO - chat - 🔍 Retrieving projects for query: 'deep learning projects'
+2025-10-09 10:40:37 - INFO - chat - [Project 1]
+Name: ChestXray-Cancer-Detection
+URL: https://github.com/cleavestone/ChestXray-Cancer-Detection
+Technologies: Python, TensorFlow, Keras, VGG16, DVC, MLflow, Dagshub, Flask, Docker, AWS
+Description: This project is an end-to-end Deep Learning project for classifying chest X-rays into Normal and Adenocarcinoma categories. The project uses a modular, production-ready pipeline with tools like DVC, MLflow, and Dagshub for experiment tracking, reproducibility, and scalability.
+
+2025-10-09 10:40:37 - INFO - chat - ✓ Retrieved context length: 488 characters
+2025-10-09 10:40:37 - INFO - chat - Context preview: [Project 1]
+Name: ChestXray-Cancer-Detection
+URL: https://github.com/cleavestone/ChestXray-Cancer-Detection
+Technologies: Python, TensorFlow, Keras, VGG16, DVC, MLflow, Dagshub, Flask, Docker, AWS
+Des...
+2025-10-09 10:41:32 - INFO - chat - 📍 Routing query: 'rag projects'
+2025-10-09 10:41:37 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:41:37 - INFO - chat - 🔍 Retrieving projects for query: 'rag projects'
+2025-10-09 10:41:53 - INFO - chat - [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAISS, Weaviate, ChromaDB
+Description: This repository documents a hands-on learning path in Retrieval-Augmented Generation (RAG), aiming to build a strong foundation and design scalable RAG systems for real-world use cases. The project explores different components of RAG, including mathematical foundations, text chunking strategies, document loaders, embeddings, and vector search. The goal is to learn and implement RAG from scratch, with a focus on practical applications and scalability.
+
+2025-10-09 10:41:53 - INFO - chat - ✓ Retrieved context length: 692 characters
+2025-10-09 10:41:53 - INFO - chat - Context preview: [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAI...
+2025-10-09 10:51:12 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 10:51:14 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:51:14 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 10:51:35 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 10:51:35 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 10:51:35 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 10:52:07 - INFO - chat - 📍 Routing query: 'tell me more about the tech stack'
+2025-10-09 10:52:08 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 10:52:44 - INFO - chat - 📍 Routing query: 'clustering projects'
+2025-10-09 10:52:45 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 10:52:45 - INFO - chat - 🔍 Retrieving projects for query: 'clustering projects'
+2025-10-09 10:52:57 - INFO - chat - [Project 1]
+Name: Customer-Segmentation
+URL: https://github.com/cleavestone/Customer-Segmentation
+Technologies: Python, pandas, numpy, matplotlib, seaborn, scikit-learn
+Description: This project applies RFM Analysis on transactional data from an e-commerce platform to identify distinct customer groups and recommend tailored engagement strategies for each. The project uses clustering techniques to segment customers based on RFM scores and provides actionable insights and visualizations to drive personalized marketing strategies.
+
+2025-10-09 10:52:57 - INFO - chat - ✓ Retrieved context length: 534 characters
+2025-10-09 10:52:57 - INFO - chat - Context preview: [Project 1]
+Name: Customer-Segmentation
+URL: https://github.com/cleavestone/Customer-Segmentation
+Technologies: Python, pandas, numpy, matplotlib, seaborn, scikit-learn
+Description: This project appli...
+2025-10-09 11:01:32 - INFO - chat - 📍 Routing query: 'hello am cleave'
+2025-10-09 11:01:34 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:01:54 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 11:01:56 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:01:56 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 11:02:19 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:02:19 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:02:19 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:02:45 - INFO - chat - 📍 Routing query: 'whats my name'
+2025-10-09 11:02:46 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:03:37 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-09 11:03:38 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:03:38 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-09 11:03:46 - INFO - chat - [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios.
+
+
+[Project 2]
+Name: Data-Insights-Hub
+URL: https://github.com/cleavestone/Data-Insights-Hub
+Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, Seaborn
+Description: This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.
+
+
+[Project 3]
+Name: Customer_Churn_MLOPS
+URL: https://github.com/cleavestone/Customer_Churn_MLOPS
+Technologies: Python, Pandas, Scikit-learn, XGBoost, CatBoost, LightGBM, MLflow, DVC, FastAPI, HTML, CSS, Jinja2, Docker, GitHub Actions, AWS ECR, AWS ECS Fargate, Grafana
+Description: This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.
+
+2025-10-09 11:03:46 - INFO - chat - ✓ Retrieved context length: 1392 characters
+2025-10-09 11:03:46 - INFO - chat - Context preview: [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning p...
+2025-10-09 11:04:18 - INFO - chat - 📍 Routing query: 'machine learning projects'
+2025-10-09 11:04:19 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:04:19 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning projects'
+2025-10-09 11:04:26 - INFO - chat - [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios.
+
+
+[Project 2]
+Name: Data-Insights-Hub
+URL: https://github.com/cleavestone/Data-Insights-Hub
+Technologies: Python, Pandas, NumPy, Matplotlib, Scikit-learn, TensorFlow, Keras, Seaborn
+Description: This project aims to forecast stock prices and predict customer churn using machine learning techniques, including LSTM neural networks and random forest classifiers.
+
+
+[Project 3]
+Name: Customer_Churn_MLOPS
+URL: https://github.com/cleavestone/Customer_Churn_MLOPS
+Technologies: Python, Pandas, Scikit-learn, XGBoost, CatBoost, LightGBM, MLflow, DVC, FastAPI, HTML, CSS, Jinja2, Docker, GitHub Actions, AWS ECR, AWS ECS Fargate, Grafana
+Description: This project is a production-ready Machine Learning Operations (MLOps) project focused on predicting customer churn using a real-world dataset from ABC Multistate Bank.
+
+2025-10-09 11:04:26 - INFO - chat - ✓ Retrieved context length: 1392 characters
+2025-10-09 11:04:26 - INFO - chat - Context preview: [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning p...
+2025-10-09 11:04:46 - INFO - chat - 📍 Routing query: 'RAG projects'
+2025-10-09 11:04:49 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:04:49 - INFO - chat - 🔍 Retrieving projects for query: 'RAG projects'
+2025-10-09 11:05:04 - INFO - chat - [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAISS, Weaviate, ChromaDB
+Description: This repository documents a hands-on learning path in Retrieval-Augmented Generation (RAG), aiming to build a strong foundation and design scalable RAG systems for real-world use cases. The project explores different components of RAG, including mathematical foundations, text chunking strategies, document loaders, embeddings, and vector search. The goal is to learn and implement RAG from scratch, with a focus on practical applications and scalability.
+
+2025-10-09 11:05:04 - INFO - chat - ✓ Retrieved context length: 692 characters
+2025-10-09 11:05:04 - INFO - chat - Context preview: [Project 1]
+Name: RAG_from_scratch
+URL: https://github.com/cleavestone/RAG_from_scratch
+Technologies: Python, PyPDFLoader, TextLoader, CSVLoader, WebBaseLoader, all-MiniLM-L6-v2 (SBERT), Pinecone, FAI...
+2025-10-09 11:05:21 - INFO - chat - 📍 Routing query: 'projects using langchain'
+2025-10-09 11:05:22 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:05:22 - INFO - chat - 🔍 Retrieving projects for query: 'projects using langchain'
+2025-10-09 11:05:33 - INFO - chat - [Project 1]
+Name: Medical-chatbot
+URL: https://github.com/cleavestone/Medical-chatbot
+Technologies: Flask, LangChain, OpenAI, Pinecone, Python, HTML/CSS, JavaScript
+Description: This project is a Flask-based Medical Chatbot that leverages LangChain, OpenAI, and Pinecone to deliver intelligent, context-aware responses from a medical knowledge base.
+
+
+[Project 2]
+Name: MCQ_GEN
+URL: https://github.com/cleavestone/MCQ_GEN
+Technologies: Streamlit, LangChain, Python, Git
+Description: This application generates MCQs from PDF or text files and displays the correct answers in a user-friendly format using Streamlit and LangChain.
+
+2025-10-09 11:05:33 - INFO - chat - ✓ Retrieved context length: 628 characters
+2025-10-09 11:05:33 - INFO - chat - Context preview: [Project 1]
+Name: Medical-chatbot
+URL: https://github.com/cleavestone/Medical-chatbot
+Technologies: Flask, LangChain, OpenAI, Pinecone, Python, HTML/CSS, JavaScript
+Description: This project is a Flas...
+2025-10-09 11:06:15 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-09 11:06:16 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:06:47 - INFO - chat - 📍 Routing query: 'am cleave'
+2025-10-09 11:06:47 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:06:56 - INFO - chat - 📍 Routing query: 'whats my name'
+2025-10-09 11:06:57 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:07:31 - INFO - chat - 📍 Routing query: 'sql'
+2025-10-09 11:07:32 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:07:32 - INFO - chat - 🔍 Retrieving projects for query: 'sql'
+2025-10-09 11:07:40 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:07:40 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:07:40 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:13:23 - INFO - chat - 📍 Routing query: 'hi'
+2025-10-09 11:13:25 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:13:42 - INFO - chat - 📍 Routing query: 'looking for sql projects'
+2025-10-09 11:13:43 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:13:43 - INFO - chat - 🔍 Retrieving projects for query: 'looking for sql projects'
+2025-10-09 11:13:49 - INFO - chat - No relevant projects found.
+2025-10-09 11:13:49 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 11:13:49 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 11:14:05 - INFO - chat - 📍 Routing query: 'power bi projects'
+2025-10-09 11:14:06 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:14:06 - INFO - chat - 🔍 Retrieving projects for query: 'power bi projects'
+2025-10-09 11:14:15 - INFO - chat - [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwind database sales data using Power BI to uncover insights into sales, profit, orders, and delivery performance. The database is hosted locally on SQL Server and consists of multiple relational tables. The project demonstrates skills in data connection, transformation, modeling, and visualization.
+
+2025-10-09 11:14:15 - INFO - chat - ✓ Retrieved context length: 497 characters
+2025-10-09 11:14:15 - INFO - chat - Context preview: [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwin...
+2025-10-09 11:14:29 - INFO - chat - 📍 Routing query: 'do you have any projects on sql'
+2025-10-09 11:14:30 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:14:30 - INFO - chat - 🔍 Retrieving projects for query: 'do you have any projects on sql'
+2025-10-09 11:14:36 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+
+[Project 2]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwind database sales data using Power BI to uncover insights into sales, profit, orders, and delivery performance. The database is hosted locally on SQL Server and consists of multiple relational tables. The project demonstrates skills in data connection, transformation, modeling, and visualization.
+
+2025-10-09 11:14:36 - INFO - chat - ✓ Retrieved context length: 734 characters
+2025-10-09 11:14:36 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:15:06 - INFO - chat - 📍 Routing query: 'what the capital city of Kenya'
+2025-10-09 11:15:07 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:19:10 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 11:19:11 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:19:11 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 11:19:19 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:19:19 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:19:19 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:24:26 - INFO - chat - 📍 Routing query: 'hello'
+2025-10-09 11:24:28 - INFO - chat - 🎯 Router decision: CHAT
+2025-10-09 11:24:45 - INFO - chat - 📍 Routing query: 'retrieve my sql projects'
+2025-10-09 11:24:46 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:24:46 - INFO - chat - 🔍 Retrieving projects for query: 'retrieve my sql projects'
+2025-10-09 11:24:50 - INFO - chat - No relevant projects found.
+2025-10-09 11:24:50 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 11:24:50 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 11:25:22 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 11:25:22 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:25:22 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 11:25:26 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:25:26 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:25:26 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:25:46 - INFO - chat - 📍 Routing query: 'power bi projects'
+2025-10-09 11:25:47 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:25:47 - INFO - chat - 🔍 Retrieving projects for query: 'power bi projects'
+2025-10-09 11:25:51 - INFO - chat - [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwind database sales data using Power BI to uncover insights into sales, profit, orders, and delivery performance. The database is hosted locally on SQL Server and consists of multiple relational tables. The project demonstrates skills in data connection, transformation, modeling, and visualization.
+
+2025-10-09 11:25:51 - INFO - chat - ✓ Retrieved context length: 497 characters
+2025-10-09 11:25:51 - INFO - chat - Context preview: [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwin...
+2025-10-09 11:26:09 - INFO - chat - 📍 Routing query: 'machine learning and deep learning projects'
+2025-10-09 11:26:10 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:26:10 - INFO - chat - 🔍 Retrieving projects for query: 'machine learning and deep learning projects'
+2025-10-09 11:26:42 - INFO - chat - [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning project, showcasing a comprehensive approach to machine learning. The project's purpose is to demonstrate a structured method to machine learning, from start to finish. The approach involves using various machine learning techniques to solve real-world problems. It matters because it provides a clear understanding of how machine learning can be applied in different scenarios.
+
+
+[Project 2]
+Name: ChestXray-Cancer-Detection
+URL: https://github.com/cleavestone/ChestXray-Cancer-Detection
+Technologies: Python, TensorFlow, Keras, VGG16, DVC, MLflow, Dagshub, Flask, Docker, AWS
+Description: This project is an end-to-end Deep Learning project for classifying chest X-rays into Normal and Adenocarcinoma categories. The project uses a modular, production-ready pipeline with tools like DVC, MLflow, and Dagshub for experiment tracking, reproducibility, and scalability.
+
+2025-10-09 11:26:42 - INFO - chat - ✓ Retrieved context length: 1068 characters
+2025-10-09 11:26:42 - INFO - chat - Context preview: [Project 1]
+Name: Mlprojects
+URL: https://github.com/cleavestone/Mlprojects
+Technologies: Python, Scikit-learn, TensorFlow, Keras
+Description: This repository contains an end-to-end machine learning p...
+2025-10-09 11:27:07 - INFO - chat - 📍 Routing query: 'time series projects'
+2025-10-09 11:27:09 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:27:09 - INFO - chat - 🔍 Retrieving projects for query: 'time series projects'
+2025-10-09 11:27:18 - INFO - chat - [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.
+
+2025-10-09 11:27:18 - INFO - chat - ✓ Retrieved context length: 379 characters
+2025-10-09 11:27:18 - INFO - chat - Context preview: [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project...
+2025-10-09 11:28:49 - INFO - chat - 📍 Routing query: 'sql project'
+2025-10-09 11:28:51 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:28:51 - INFO - chat - 🔍 Retrieving projects for query: 'sql project'
+2025-10-09 11:28:55 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:28:55 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:28:55 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:29:18 - INFO - chat - 📍 Routing query: 'do you have any deep learning projects'
+2025-10-09 11:29:20 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:29:20 - INFO - chat - 🔍 Retrieving projects for query: 'do you have any deep learning projects'
+2025-10-09 11:29:30 - INFO - chat - [Project 1]
+Name: ChestXray-Cancer-Detection
+URL: https://github.com/cleavestone/ChestXray-Cancer-Detection
+Technologies: Python, TensorFlow, Keras, VGG16, DVC, MLflow, Dagshub, Flask, Docker, AWS
+Description: This project is an end-to-end Deep Learning project for classifying chest X-rays into Normal and Adenocarcinoma categories. The project uses a modular, production-ready pipeline with tools like DVC, MLflow, and Dagshub for experiment tracking, reproducibility, and scalability.
+
+2025-10-09 11:29:30 - INFO - chat - ✓ Retrieved context length: 488 characters
+2025-10-09 11:29:30 - INFO - chat - Context preview: [Project 1]
+Name: ChestXray-Cancer-Detection
+URL: https://github.com/cleavestone/ChestXray-Cancer-Detection
+Technologies: Python, TensorFlow, Keras, VGG16, DVC, MLflow, Dagshub, Flask, Docker, AWS
+Des...
+2025-10-09 11:29:59 - INFO - chat - 📍 Routing query: 'projects in time series forecasing'
+2025-10-09 11:30:00 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:30:00 - INFO - chat - 🔍 Retrieving projects for query: 'projects in time series forecasing'
+2025-10-09 11:30:03 - INFO - chat - No relevant projects found.
+2025-10-09 11:30:03 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 11:30:03 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 11:34:46 - INFO - chat - 📍 Routing query: 'time series forecasting projects'
+2025-10-09 11:34:49 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:34:49 - INFO - chat - 🔍 Retrieving projects for query: 'time series forecasting projects'
+2025-10-09 11:34:53 - INFO - chat - [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.
+
+2025-10-09 11:34:53 - INFO - chat - ✓ Retrieved context length: 379 characters
+2025-10-09 11:34:53 - INFO - chat - Context preview: [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project...
+2025-10-09 11:36:11 - INFO - chat - 📍 Routing query: 'time series forecasting projects'
+2025-10-09 11:36:13 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:36:13 - INFO - chat - 🔍 Retrieving projects for query: 'time series forecasting projects'
+2025-10-09 11:36:30 - INFO - chat - [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.
+
+2025-10-09 11:36:30 - INFO - chat - ✓ Retrieved context length: 379 characters
+2025-10-09 11:36:30 - INFO - chat - Context preview: [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project...
+2025-10-09 11:37:15 - INFO - chat - 📍 Routing query: 'sql prokjects'
+2025-10-09 11:37:16 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:37:16 - INFO - chat - 🔍 Retrieving projects for query: 'sql prokjects'
+2025-10-09 11:37:19 - INFO - chat - No relevant projects found.
+2025-10-09 11:37:19 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 11:37:19 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 11:37:33 - INFO - chat - 📍 Routing query: 'sql projects'
+2025-10-09 11:37:34 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:37:34 - INFO - chat - 🔍 Retrieving projects for query: 'sql projects'
+2025-10-09 11:37:37 - INFO - chat - [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic datasets to master core SQL concepts.
+
+2025-10-09 11:37:37 - INFO - chat - ✓ Retrieved context length: 235 characters
+2025-10-09 11:37:37 - INFO - chat - Context preview: [Project 1]
+Name: DATA-ANALYSIS-SQL
+URL: https://github.com/cleavestone/DATA-ANALYSIS-SQL
+Technologies: MySQL, PostgreSQL, Python, Faker
+Description: A hands-on SQL practice project with realistic dat...
+2025-10-09 11:37:56 - INFO - chat - 📍 Routing query: 'time series forecating project'
+2025-10-09 11:37:57 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:37:57 - INFO - chat - 🔍 Retrieving projects for query: 'time series forecating project'
+2025-10-09 11:38:00 - INFO - chat - No relevant projects found.
+2025-10-09 11:38:00 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 11:38:00 - INFO - chat - Context preview: No relevant projects found....
+2025-10-09 11:57:32 - INFO - chat - 📍 Routing query: 'time series forecasting projects'
+2025-10-09 11:57:33 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:57:33 - INFO - chat - 🔍 Retrieving projects for query: 'time series forecasting projects'
+2025-10-09 11:57:39 - INFO - chat - [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project implements a Long Short-Term Memory (LSTM) neural network for multivariate time series forecasting to predict PM2.5 concentration and provide insights into air pollution trends.
+
+2025-10-09 11:57:39 - INFO - chat - ✓ Retrieved context length: 379 characters
+2025-10-09 11:57:39 - INFO - chat - Context preview: [Project 1]
+Name: Air_quality_Forecasting
+URL: https://github.com/cleavestone/Air_quality_Forecasting
+Technologies: Keras framework, Python, Min-Max scaling, One-hot encoding
+Description: This project...
+2025-10-09 11:58:13 - INFO - chat - 📍 Routing query: 'project working on sql and power bi'
+2025-10-09 11:58:14 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 11:58:14 - INFO - chat - 🔍 Retrieving projects for query: 'project working on sql and power bi'
+2025-10-09 11:58:21 - INFO - chat - [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwind database sales data using Power BI to uncover insights into sales, profit, orders, and delivery performance. The database is hosted locally on SQL Server and consists of multiple relational tables. The project demonstrates skills in data connection, transformation, modeling, and visualization.
+
+2025-10-09 11:58:21 - INFO - chat - ✓ Retrieved context length: 497 characters
+2025-10-09 11:58:21 - INFO - chat - Context preview: [Project 1]
+Name: Northwind-Sales-Analysis
+URL: https://github.com/cleavestone/Northwind-Sales-Analysis
+Technologies: Power BI, SQL Server, Power Query, DAX
+Description: This project analyzes Northwin...
+2025-10-09 12:11:49 - INFO - chat - 📍 Routing query: 'could you give me a bettr project structure for my RAG assitant prjetc, which has data ingestion from readmes, . fetch_github.py, build_index.py, retriever.py, pipeliene folfer with piprlirnes, which connects the componnets for fetching data, there is chat.py with lanngraph logic, their is streamlit.py with ui, there is data folder, prompts.py, static folder with css, notebooks folder, utils folder with helper funmctions eg config_loader and custom_logger, then we have rEADME, requiremenst, dockerfile, dockerignore,logs folder,config.yaml,.gitigone, .env, can you provide a bettr prohejct structure , production grade for my project so that i dint just nthrow things around'
+2025-10-09 12:11:50 - INFO - chat - 🎯 Router decision: RETRIEVE
+2025-10-09 12:11:50 - INFO - chat - 🔍 Retrieving projects for query: 'could you give me a bettr project structure for my RAG assitant prjetc, which has data ingestion from readmes, . fetch_github.py, build_index.py, retriever.py, pipeliene folfer with piprlirnes, which connects the componnets for fetching data, there is chat.py with lanngraph logic, their is streamlit.py with ui, there is data folder, prompts.py, static folder with css, notebooks folder, utils folder with helper funmctions eg config_loader and custom_logger, then we have rEADME, requiremenst, dockerfile, dockerignore,logs folder,config.yaml,.gitigone, .env, can you provide a bettr prohejct structure , production grade for my project so that i dint just nthrow things around'
+2025-10-09 12:11:54 - INFO - chat - No relevant projects found.
+2025-10-09 12:11:54 - INFO - chat - ✓ Retrieved context length: 27 characters
+2025-10-09 12:11:54 - INFO - chat - Context preview: No relevant projects found....

@@ -4,3 +4,5 @@ venv
 config.yaml
 .embedding_cache
 .results_cache
+logs
+notebooks

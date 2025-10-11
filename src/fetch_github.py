@@ -11,6 +11,7 @@ from utils.config_loader import load_config
 from utils.custom_logger import get_logger
 
 logger = get_logger("rag")
+from src.prompts import PROJECT_README_PROMPT
 
 
 class GitHubPipeline:
@@ -78,36 +79,11 @@ class GitHubPipeline:
             "Content-Type": "application/json"
         }
 
-        prompt = f"""
-            You are preparing project data for a Retrieval-Augmented Generation (RAG) system.
-            The input is a README file that may contain tables, images, code, or badges.
-            Your task is to extract the most important structured information.
-
-            Guidelines:
-            - Summarize into 2-4 sentences: purpose, approach, and why it matters.
-            - Extract `key_skills` (methods, ML techniques, analytical skills).
-            - Extract `tech_stack` (frameworks, libraries, tools, languages).
-            - Suggest 2 realistic `use_cases` based on the project's purpose.
-            - Assign `complexity_level` as Beginner, Intermediate, or Advanced.
-            - Extract `tags` to help categorize projects (e.g., "machine learning", "time series", "kmeans clustering","deep learning" etc).
-            - If information is missing, set it to "Unknown".
-            - Ignore irrelevant details like install instructions, badges, license, or author credits.
-
-            ⚠️ Output must be ONLY valid JSON, no markdown, no commentary.
-
-            Required fields:
-            - repo_name: {repo_name}
-            - repo_url: {repo_url}
-            - description
-            - key_skills (list)
-            - tech_stack (list)
-            - use_cases (list)
-            - complexity_level
-            - tags (list)
-
-            README:
-            {text[:6000]}
-            """
+        prompt = PROJECT_README_PROMPT.format(
+            repo_name=repo_name,
+            repo_url=repo_url,
+            text=text[:6000]
+       )
 
         data = {
             "model": "llama-3.3-70b-versatile",
